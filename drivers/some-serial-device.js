@@ -18,7 +18,7 @@ export default class SomeSerialDevice extends BasicDriver{
 
 
 		// Brightness
-		this.registerAbility(Types.Button, {
+		this.registerAbility(Types.Range, {
 			name:"Brightness",
 			min: 1,
 			max: 100,
